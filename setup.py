@@ -22,10 +22,8 @@ from datetime import datetime
 from databricks import sql as dbsql
 
 DATABRICKS_HOST      = "dbc-d8add99d-4fa2.cloud.databricks.com"
-DATABRICKS_TOKEN     = "dapi335ec0fb537649b29d526acb88a8b980"
 DATABRICKS_HTTP_PATH = "/sql/1.0/warehouses/dbe0af7d2fced0d2"
 DATABRICKS_GATEWAY   = "https://7474647235375729.ai-gateway.cloud.databricks.com/mlflow/v1/chat/completions"
-#DATABRICKS_MODEL   = "databricks-meta-llama-3-1-8b-instruct"
 DATABRICKS_MODEL   = "databricks-meta-llama-3-3-70b-instruct"
 print(f"setup.py loaded")
 print(f"   Host:    {DATABRICKS_HOST}")
